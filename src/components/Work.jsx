@@ -6,9 +6,9 @@ const demobox = demomode ? styles.demo.hero : {};
 
 const Work = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`} style={demobox}>
-      Work
-    </section>
+    <div>
+      Joe's Div
+    </div>
   );
 };
 

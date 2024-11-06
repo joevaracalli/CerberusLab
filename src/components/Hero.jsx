@@ -13,7 +13,7 @@ const Hero = ({ active }) => {
 
       <Card active={active} />
 
-      <HannyaCanvas active={active} />
+      {/* <HannyaCanvas active={active} /> */}
               
     </section>
   );

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import Work from "./Work";
+
 import { styles } from "../styles";
 
 const Card = ({ active }) => {
@@ -24,9 +26,7 @@ const Card = ({ active }) => {
   }else if (active == "Work") {
     return (
       <div className={`absolute inset-0 top-[120px] max-w-full mx-auto border-white border-2 flex flex-col items-start gap-7 py-7 ${styles.paddingX}`}>
-        <div className={`flex h-2/3 w-full  flex-col mx-auto justify-center items-center border-2 border-white `}>
-          Card1
-        </div>
+        <Work />
       </div>
     )
   } else {
