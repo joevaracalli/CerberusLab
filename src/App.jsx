@@ -20,6 +20,11 @@ function AudioControl() {
     const audioObj = new Audio('/doberman-bark.mp3');
     audioObj.volume = 0.5;
     audioObj.loop = false;
+    audioObj.preload = 'auto';
+    
+    // Mobile-specific audio settings
+    audioObj.setAttribute('playsinline', 'true');
+    audioObj.setAttribute('webkit-playsinline', 'true');
     
     audioObj.addEventListener('ended', () => {
       setIsPlaying(false);
@@ -71,8 +76,8 @@ function AudioControl() {
         // Stop icon
         <div className="w-4 h-4 bg-red-400 rounded-sm"></div>
       ) : (
-        // Play icon (dog paw or speaker)
-        <div className="text-white text-lg">🐕</div>
+        // Play icon (black wolf)
+        <div className="text-white text-lg">🐺</div>
       )}
     </button>
   );
