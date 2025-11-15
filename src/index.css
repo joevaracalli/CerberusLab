@@ -21,12 +21,11 @@
   letter-spacing: 0.05em;
 }
 
-/* Gothic Blackletter Font for Title - Larger Size */
+/* Gothic Blackletter Font for Title */
 .font-gothic {
   font-family: "UnifrakturMaguntia", cursive;
   font-weight: 400;
   letter-spacing: 0.08em;
-  font-size: 1.3em;
 }
 
 body {

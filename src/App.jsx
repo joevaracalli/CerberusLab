@@ -212,7 +212,7 @@ function LoadingScreen({ onComplete }) {
 
 // Matrix Rain Component
 function MatrixRain() {
-  const matrixChars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
+  const matrixChars = "ケルベロスラボ"; // Cerberus Lab in Japanese (Keruberosu Rabo)
   
   return (
     <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
