@@ -190,8 +190,8 @@ function LoadingScreen({ onComplete }) {
   return (
     <div className="fixed inset-0 bg-black z-50 flex items-center justify-center">
       <div className="text-center">
-        <div className="text-6xl font-bold mb-8 glitch-text neon-text-glow font-rajdhani">
-          CERBERUS <span className="text-red-400">LAB</span>
+        <div className="text-6xl font-bold mb-8 glitch-text neon-text-glow font-gothic">
+          CERBERUS <span className="text-red-400 font-gothic">LAB</span>
         </div>
         <div className="h-1 bg-gray-800 rounded-full mb-4 mx-auto" style={{ width: '100%', maxWidth: '28rem' }}>
           <div 
@@ -459,8 +459,8 @@ function Hero({ playSound }) {
     <section className="relative isolate overflow-hidden">
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-20 md:grid-cols-2 md:py-28">
         <div>
-          <h1 className="text-5xl font-bold leading-tight md:text-7xl glitch-text font-rajdhani tracking-wider">
-            Cerberus <span className="text-red-400">Lab</span>
+          <h1 className="text-5xl font-bold leading-tight md:text-7xl glitch-text font-gothic tracking-wider">
+            Cerberus <span className="text-red-400 font-gothic">Lab</span>
           </h1>
           <p className="mt-5 max-w-xl text-white/70">
             The official home of Nova Music and Cerberus artists. Follow and stay tuned for upcoming releases.
